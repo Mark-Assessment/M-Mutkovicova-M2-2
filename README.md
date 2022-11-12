@@ -35,3 +35,8 @@ The intended users for this are:
 
 # Notes to self
 Open port: python3 -m http.server
+
+Next actions:
+replicate for all questions
+modal fullscreen for results 
+design!
