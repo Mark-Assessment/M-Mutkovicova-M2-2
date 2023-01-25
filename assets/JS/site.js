@@ -26,11 +26,13 @@ q1Elements.forEach(element => {
 const q2Elements = document.querySelectorAll(".q-2-answer");
 
 function handleQ2Selection(event) {
+    console.log("Test1");
     q2Elements.forEach(element => {
         element.classList.add("disabled");
     })
     const classes = event.target.classList;
     const isCorrectAnswer = classes.contains("correct-answer");
+    console.log(isCorrectAnswer);
     if (isCorrectAnswer) {
         event.target.classList.add("btn-outline-success");
         total = total+1;
