@@ -95,10 +95,30 @@
                     <label class="btn btn-outline-primary q-5-answer incorrect-answer" for="q-5-a-4">Turmeric</label>
             </div>
 <!-----------Submit button-->
+            <div class="alert alert-danger" role="alert" id="submit-error" hidden>
+                You have to select all answers before submitting!
+            </div>
             <div>
                 <input type="submit" class="btn btn-primary" id="submit-btn" autocomplete="off">
             </div>
         </section>
+<!---Modal for results-->
+        <div class="modal" tabindex="-1" id="result-modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Your results!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p id="result-message"></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close-button">Refresh quiz</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
         <p>Copyright Magstar 2022</p>    
