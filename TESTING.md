@@ -1,5 +1,16 @@
 # Milestone 2 Project - Big Bang Theory quiz - Testing
 
+## Table of contents
+
+1. [Testing used](#testing-used)
+2. [Manual code testing](#manual-code-testing)
+    1. [In browser testing](#in-browser-testing)
+    2. [JSLint](#jslint)
+    3. [JSHint](#jshint)
+    4. [Lighthouse](#lighthouse)
+3. [User story testing](#user-testing)
+4. [Additional testing](#additional-testingß)
+
 ## Testing used
 
 Testing for applications such as this can be done either manually or automatically. Manual testing relies on me, the coder, to run the in-progress and finished code through testing, where deemed appropriate. Automated testing will conduct this continuously, allowing for potentially less correcting once the code is finished.
@@ -10,7 +21,7 @@ Automated testing is brilliant, and allows coders to work on problems without ru
 
 ## Manual code testing
 
-## In browser testing
+### In browser testing
 
 The code was continuously tested using Google DevTools in-browser. The parts that were most tested were:
 1. Buttons and how they behave, and behave properly across all questions.
@@ -35,7 +46,7 @@ JSHint mainly disliked my use of const and let, and highlighted that these would
 
 I'm really happy with the Lighthouse testing and the 90% across the board apart from SEO. I think this is as could be expected for such a simple site.
 
-## User testing
+## User story testing
 
 This quiz only has two user stories, as it's a very simple site.
 
@@ -65,3 +76,7 @@ This quiz only has two user stories, as it's a very simple site.
 
     - Educates with choices.
     The answers will immediately notify the user if they got the question right, or wrong, therefore giving them to chance to quickly reflect on their choices, and potentially approach next question with more caution.
+
+## Additional testing
+
+Additional testing was conducted by friends who played the quiz and had success in doing so using the GitHub Pages publication.
