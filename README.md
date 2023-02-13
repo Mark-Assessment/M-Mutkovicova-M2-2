@@ -80,5 +80,3 @@ I would like to extend a special thank you to my friend Ariela, who sat with me 
 
 Additionally, I'd love to thank Rachel, my supervisor from EKC Group, who didn't push too hard when she could tell I just couldn't do anything. We got there in the end!
 
-# Notes to self
-Open port: python3 -m http.server
