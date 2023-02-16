@@ -50,32 +50,43 @@ I'm really happy with the Lighthouse testing and the 90% across the board apart 
 
 This quiz only has two user stories, as it's a very simple site.
 
-1. New users just playing a game.
+### 1. New users just playing a game.
 
 <video src='assets/testing_files/user_story_1.mov' width=400 autoplay></video>
 
-    - Fun to play.
+ 1. Fun to play.  
     The tone I set with the initial explanation makes it clear that this is just for fun, and not to be taken seriously.
 
-    - Easy to understand.
+<img src='assets/testing_files/test-fun-tone.png' alt='fun tone instructions' width=400>
+
+ 2. Easy to understand.  
     The explanation provides the user with a basic breakdown of the site and therefore makes it easy to understand the objective. Once an answer is selected, the answers are disabled so it is clear that the next answer needs to be selected. In addition, the alert that shows if the submit button is pressed too early keeps the user on the questions.
 
-    - Quick and not time consuming.
+<img src='assets/testing_files/test-alert-disable.png' alt='alert and disabled answers' width=400>
+
+ 3. Quick and not time consuming.  
     The site only has 5 questions and therefore doesn't take long to use.
 
+<img src='assets/testing_files/test-quick-questions.png' alt='extent of questions' width=400>
 
-2. New users wanting to exercise their brain.
+### 2. New users wanting to exercise their brain.
 
 <video src='assets/testing_files/user_story_2.mov' width=400 autoplay></video>
 
-    - Stimulating for the brain.
-    The questions I picked aren't necessarily the easiest, and should provide challenge to all levels of fans of Big Bang Theory.
-    
-    - Easy to pick up.
-    The instructions should make it easy enough to understand how to play the quiz.
+1. Stimulating for the brain.  
+The questions I picked aren't necessarily the easiest, and should provide challenge to all levels of fans of Big Bang Theory.
 
-    - Educates with choices.
-    The answers will immediately notify the user if they got the question right, or wrong, therefore giving them to chance to quickly reflect on their choices, and potentially approach next question with more caution.
+<img src='assets/testing_files/test-quick-questions.png' alt='questions picked' width=400>
+    
+2. Easy to pick up.  
+The instructions should make it easy enough to understand how to play the quiz.
+
+<img src='assets/testing_files/test-easy-instructions.png' alt='easy instructions' width=400>
+
+3. Educates with choices.  
+The answers will immediately notify the user if they got the question right, or wrong, therefore giving them to chance to quickly reflect on their choices, and potentially approach next question with more caution.
+
+<img src='assets/testing_files/test-correct-incorrect-answers.png' alt='correct and incorrect answer highlight' width=400>
 
 ## Additional testing
 
