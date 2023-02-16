@@ -1,7 +1,9 @@
 body {
     color: #2f4f4f;
     background-color: white;
-
+    background-image: url('assets/images/bbt-bgd-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
