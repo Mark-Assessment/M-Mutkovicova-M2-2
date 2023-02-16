@@ -37,7 +37,7 @@ For this project, I decided to go for a simple clean design. The primary aim wit
 
 However, I took inspiration from the Big Bang Theory logo for the colour scheme. I kept the rest of the design clean and simple - and used Bootstraps inherent button design. 
 
-![TBBT Logo](assets/readme_files/TBBT_logo_small.jpeg)
+![TBBT Logo](assets/readme_files/tbbt_logo_small.jpeg)
 
 ## Features
 

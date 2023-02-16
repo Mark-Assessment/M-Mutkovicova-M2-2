@@ -30,13 +30,13 @@ The code was continuously tested using Google DevTools in-browser. The parts tha
 
 ### JSLint
 
-![JSLint testing screenshot](assets/testing_files/JSLint_testing.png)
+![JSLint testing screenshot](assets/testing_files/jslint_testing.png)
 
 JSLint picked up a few errors, however they mostly consisted of the length of lines in the code, which refer to the text that sits within the modal. This may have been mitigated by pulling from another part, however it didn't feel that harmful to the site.
 
 ### JSHint
 
-![JSHint testing screenshot](assets/testing_files/JSHint_testing_small.png)
+![JSHint testing screenshot](assets/testing_files/jshint_testing_small.png)
 
 JSHint mainly disliked my use of const and let, and highlighted that these would not work in pre-ES6. Since this is almost non-existent in the modern world, this shouldn't be a problem. JSHint also highlighted a few places where I had, what they deemed to be, "unnecessary semicolons", however these were ones at the end of if statements within formulas, so I kept them.
 
